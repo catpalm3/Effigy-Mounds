@@ -1,0 +1,284 @@
+body {
+  font-family: Varela, sans-serif;
+  color: #f0f0f0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.div-block {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/moundsunray1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/moundsunray1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.heading {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 80px;
+  line-height: 1.2em;
+  text-align: center;
+  text-transform: none;
+}
+
+.dash-divider {
+  width: 50px;
+  height: 5px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  border-radius: 20px;
+  background-color: #7fff58;
+}
+
+.div-block-3 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  right: 0%;
+  bottom: auto;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.paragraph {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 28px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.heading-2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #308316;
+}
+
+.section.white {
+  background-color: #1a1a1a;
+}
+
+.slide {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Miss-River-Nat-Park-Mound-Group-3compressed1.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Miss-River-Nat-Park-Mound-Group-3compressed1.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/image01.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/image01.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide._3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Burrows_Park_Effigy__1_1.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Burrows_Park_Effigy__1_1.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide._4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Effigy-Mounds-Great-Bear1.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Effigy-Mounds-Great-Bear1.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slider-text {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  right: 0%;
+  bottom: auto;
+  max-width: 900px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  color: #f1f1f1;
+  font-size: 28px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.slide-nav {
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.slider {
+  height: 500px;
+}
+
+.paragraph-4 {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.section-2 {
+  background-color: #7da770;
+}
+
+.map {
+  width: 100vw;
+  height: 700px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(#1a1a1a));
+  background-image: linear-gradient(180deg, #1a1a1a, #1a1a1a);
+}
+
+.nav-link {
+  color: #f8f8f8;
+}
+
+.nav-link.w--current {
+  color: #7fff58;
+}
+
+.columns {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.social-column {
+  text-align: center;
+}
+
+.social-image {
+  height: 50px;
+}
+
+.contact-body {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .slider-text {
+    max-width: 600px;
+  }
+  .slider {
+    height: 400px;
+  }
+  .map {
+    height: 500px;
+  }
+  .nav-menu {
+    background-color: #1a1a1a;
+  }
+  .menu-button {
+    background-color: #1a1a1a;
+  }
+  .menu-button.w--open {
+    background-color: #308316;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 60px;
+  }
+  .heading-2 {
+    font-size: 28px;
+  }
+  .section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .slider-text {
+    max-width: 400px;
+    font-size: 24px;
+  }
+  .slider {
+    height: 300px;
+  }
+  .map {
+    height: 300px;
+  }
+  .columns {
+    max-width: 300px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .icon-2 {
+    font-size: 20px;
+  }
+  .social-image {
+    height: 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  .heading {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 24px;
+  }
+  .slider-text {
+    max-width: 250px;
+    font-size: 18px;
+  }
+  .slider {
+    height: 200px;
+  }
+  .paragraph-4 {
+    font-size: 16px;
+  }
+  .columns {
+    max-width: 250px;
+  }
+  .social-image {
+    height: 30px;
+  }
+  .contact-body {
+    font-size: 16px;
+  }
+}
+
